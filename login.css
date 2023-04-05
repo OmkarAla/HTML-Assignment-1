@@ -1,0 +1,96 @@
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+  }
+  #navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+  }
+  #navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+  }
+  #navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+  }
+  #navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  .login-page {
+
+    padding: 8% 0 0;
+    margin: auto;
+    background-image: url("https://imgs.search.brave.com/kG56inj7FPldlkB_swDzPd_lwxjunr54y8ix326V6xI/rs:fit:1200:800:1/g:ce/aHR0cHM6Ly9jLnB4/aGVyZS5jb20vcGhv/dG9zLzk5L2Y2L2Jh/Y2tncm91bmRfZm9v/ZF90YXN0eV9vbGl2/ZXNfd29vZGVuX2Jh/Y2tncm91bmRfY29v/a2luZ19wbGF0ZV9r/aXRjaGVuLTEzNjk4/MTMuanBnIWQ");
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  .form input[type="text"],
+  .form input[type="password"] {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .form button:hover,
+  .form button:active,
+  .form button:focus {
+    background: #43A047;
+  }
+  
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  
+  .form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .form .register-form {
+    display: none;
+  }
+  
